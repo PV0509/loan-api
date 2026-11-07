@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+.github
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local models (mounted at run time, e.g. the 1.1.0 model)
+models/
+mlruns/
+# Dev config / environments / secrets
+.devcontainer/
+.vscode/
+.venv/
+venv/
+.env
+.env.*
+requirements-dev.txt
+compose.yaml
+Dockerfile*
+tests/
+notebooks/
+*.ipynb
+CHECKLIST.md
+screenshots/
